@@ -1,0 +1,33 @@
+int main()
+{
+    int a,b,c,d,choice;
+    printf("*****WELCOME TO MY CALCULATOR!*****\n");
+    printf("Made by @SittieYAY\n");
+    printf("\n");
+    printf("Ratio of Similarity in Triangles\n");
+    printf("\n");
+    printf("A|\\      D|\\   \n");
+    printf(" | \\      | \\  \n");
+    printf("B|__\\C   E|__\\F\n");
+    printf("ABC = DEF\n");
+    printf("\n");
+    printf("Enter 1 to continue");
+    scanf("%d",&choice);
+    printf("\n");
+    printf("ED:");
+    scanf("%d",&a);
+    printf("BA:");
+    scanf("%d",&b);
+    printf("DF=x\n");
+    printf("AC:");
+    scanf("%d",&c);
+
+    switch (choice)
+    {
+      case 1:
+        printf("%d / %d x %d = %d ",a,b,c,c*a/b);
+        printf("");
+        break;
+    }
+    return 0;
+}
